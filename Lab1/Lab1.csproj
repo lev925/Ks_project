@@ -158,6 +158,18 @@
     <Compile Include="WinLinLabForm2.Designer.cs">
       <DependentUpon>WinLinLabForm2.cs</DependentUpon>
     </Compile>
+    <Compile Include="WinPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinPrint.Designer.cs">
+      <DependentUpon>WinPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinPrint2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinPrint2.Designer.cs">
+      <DependentUpon>WinPrint2.cs</DependentUpon>
+    </Compile>
     <Compile Include="WinQuestioncs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -214,6 +226,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="WinLinLabForm2.resx">
       <DependentUpon>WinLinLabForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinPrint.resx">
+      <DependentUpon>WinPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinPrint2.resx">
+      <DependentUpon>WinPrint2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WinQuestioncs.resx">
       <DependentUpon>WinQuestioncs.cs</DependentUpon>

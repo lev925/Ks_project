@@ -52,3 +52,5 @@ C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\AxInterop.AcroPDFLib.dll
 C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.csproj.ResolveComReference.cache
 C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.PDF_Reader.resources
 C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.WinAnim.resources
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.WinPrint.resources
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.WinPrint2.resources
