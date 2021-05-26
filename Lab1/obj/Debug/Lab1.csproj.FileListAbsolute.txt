@@ -1,0 +1,38 @@
+U:\Программная инженерия\lab1\Lab1\Lab1\obj\Debug\Lab1.csprojAssemblyReference.cache
+U:\Программная инженерия\lab1\Lab1\Lab1\obj\Debug\Lab1.Form1.resources
+U:\Программная инженерия\lab1\Lab1\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+U:\Программная инженерия\lab1\Lab1\Lab1\obj\Debug\Lab1.csproj.GenerateResource.cache
+U:\Программная инженерия\lab1\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+U:\Программная инженерия\lab1\Lab1\Lab1\obj\Debug\Lab1.Form2.resources
+U:\Программная инженерия\lab1\Lab1\Lab1\obj\Debug\Lab1.Form3.resources
+U:\Программная инженерия\lab1\Lab1\Lab1\bin\Debug\Lab1.exe.config
+U:\Программная инженерия\lab1\Lab1\Lab1\bin\Debug\Lab1.exe
+U:\Программная инженерия\lab1\Lab1\Lab1\bin\Debug\Lab1.pdb
+U:\Программная инженерия\lab1\Lab1\Lab1\obj\Debug\Lab1.exe
+U:\Программная инженерия\lab1\Lab1\Lab1\obj\Debug\Lab1.pdb
+D:\Лёва\484 учёба\Программная инженерия\Lab1\Lab1\bin\Debug\Lab1.exe.config
+D:\Лёва\484 учёба\Программная инженерия\Lab1\Lab1\bin\Debug\Lab1.exe
+D:\Лёва\484 учёба\Программная инженерия\Lab1\Lab1\bin\Debug\Lab1.pdb
+D:\Лёва\484 учёба\Программная инженерия\Lab1\Lab1\obj\Debug\Lab1.csprojAssemblyReference.cache
+D:\Лёва\484 учёба\Программная инженерия\Lab1\Lab1\obj\Debug\Lab1.Form2.resources
+D:\Лёва\484 учёба\Программная инженерия\Lab1\Lab1\obj\Debug\Lab1.Form3.resources
+D:\Лёва\484 учёба\Программная инженерия\Lab1\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+D:\Лёва\484 учёба\Программная инженерия\Lab1\Lab1\obj\Debug\Lab1.csproj.GenerateResource.cache
+D:\Лёва\484 учёба\Программная инженерия\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+D:\Лёва\484 учёба\Программная инженерия\Lab1\Lab1\obj\Debug\Lab1.exe
+D:\Лёва\484 учёба\Программная инженерия\Lab1\Lab1\obj\Debug\Lab1.pdb
+D:\Лёва\484 учёба\Программная инженерия\Lab1\Lab1\obj\Debug\Lab1.ParentForm.resources
+D:\Лёва\484 учёба\Программная инженерия\Lab1\Lab1\obj\Debug\Lab1.ChildForm.resources
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\bin\Debug\Lab1.exe
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\bin\Debug\Lab1.pdb
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.csprojAssemblyReference.cache
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.ChildForm.resources
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.ParentForm.resources
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.Form2.resources
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.Form3.resources
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.csproj.GenerateResource.cache
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.exe
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.pdb
