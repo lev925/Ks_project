@@ -103,6 +103,12 @@
     <Compile Include="TestList.Designer.cs">
       <DependentUpon>TestList.cs</DependentUpon>
     </Compile>
+    <Compile Include="TestStandartDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestStandartDialog.Designer.cs">
+      <DependentUpon>TestStandartDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControlTimer.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -145,12 +151,6 @@
     <Compile Include="WinQuestioncs.Designer.cs">
       <DependentUpon>WinQuestioncs.cs</DependentUpon>
     </Compile>
-    <Compile Include="WinTimer1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WinTimer1.Designer.cs">
-      <DependentUpon>WinTimer1.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="ChildForm.resx">
       <DependentUpon>ChildForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -177,6 +177,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TestList.resx">
       <DependentUpon>TestList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestStandartDialog.resx">
+      <DependentUpon>TestStandartDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlTimer.resx">
       <DependentUpon>UserControlTimer.cs</DependentUpon>
