@@ -51,6 +51,9 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.spWin = new System.Windows.Forms.ToolStripStatusLabel();
             this.spData = new System.Windows.Forms.ToolStripStatusLabel();
+            this.userControlTimer1 = new Lab1.UserControlTimer();
+            this.userControlTimer21 = new Lab1.UserControlTimer2();
+            this.clickButton1 = new Lab1.ClickButton();
             this.MdiMenu.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -260,12 +263,41 @@
             this.spData.Size = new System.Drawing.Size(31, 17);
             this.spData.Text = "Data";
             // 
+            // userControlTimer1
+            // 
+            this.userControlTimer1.BackColor = System.Drawing.Color.Lavender;
+            this.userControlTimer1.Location = new System.Drawing.Point(87, 314);
+            this.userControlTimer1.Name = "userControlTimer1";
+            this.userControlTimer1.Size = new System.Drawing.Size(72, 36);
+            this.userControlTimer1.TabIndex = 9;
+            this.userControlTimer1.TimeEnabled = true;
+            // 
+            // userControlTimer21
+            // 
+            this.userControlTimer21.Location = new System.Drawing.Point(175, 315);
+            this.userControlTimer21.Name = "userControlTimer21";
+            this.userControlTimer21.Size = new System.Drawing.Size(75, 23);
+            this.userControlTimer21.TabIndex = 10;
+            this.userControlTimer21.Text = "userControlTimer21";
+            // 
+            // clickButton1
+            // 
+            this.clickButton1.Location = new System.Drawing.Point(291, 315);
+            this.clickButton1.Name = "clickButton1";
+            this.clickButton1.Size = new System.Drawing.Size(75, 23);
+            this.clickButton1.TabIndex = 11;
+            this.clickButton1.Text = "clickButton1";
+            this.clickButton1.UseVisualStyleBackColor = true;
+            // 
             // ParentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Blue;
             this.ClientSize = new System.Drawing.Size(450, 350);
+            this.Controls.Add(this.clickButton1);
+            this.Controls.Add(this.userControlTimer21);
+            this.Controls.Add(this.userControlTimer1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.button4);
@@ -317,6 +349,9 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel spWin;
         private System.Windows.Forms.ToolStripStatusLabel spData;
+        private UserControlTimer userControlTimer1;
+        private UserControlTimer2 userControlTimer21;
+        private ClickButton clickButton1;
     }
 }
 

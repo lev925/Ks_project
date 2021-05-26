@@ -61,6 +61,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="ChildForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +103,24 @@
     <Compile Include="TestList.Designer.cs">
       <DependentUpon>TestList.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControlTimer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlTimer.Designer.cs">
+      <DependentUpon>UserControlTimer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlTimer2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControlTimer2.Designer.cs">
+      <DependentUpon>UserControlTimer2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinButNum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinButNum.Designer.cs">
+      <DependentUpon>WinButNum.cs</DependentUpon>
+    </Compile>
     <Compile Include="WinContainer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +144,12 @@
     </Compile>
     <Compile Include="WinQuestioncs.Designer.cs">
       <DependentUpon>WinQuestioncs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinTimer1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinTimer1.Designer.cs">
+      <DependentUpon>WinTimer1.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="ChildForm.resx">
       <DependentUpon>ChildForm.cs</DependentUpon>
@@ -150,6 +177,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TestList.resx">
       <DependentUpon>TestList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlTimer.resx">
+      <DependentUpon>UserControlTimer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlTimer2.resx">
+      <DependentUpon>UserControlTimer2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WinContainer.resx">
       <DependentUpon>WinContainer.cs</DependentUpon>
