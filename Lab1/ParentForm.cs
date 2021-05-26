@@ -6,6 +6,7 @@ namespace Lab1
 {
     public partial class ParentForm : Form
     {
+        private int openDocuments = 0;
         public ParentForm()
         {
             InitializeComponent();
@@ -87,6 +88,30 @@ namespace Lab1
             ChildForm newChild = new ChildForm();
             newChild.MdiParent = this;
             newChild.Show();
+        }
+
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            switch (e.ClickedItem.Tag.ToString())
+            {
+                case "NewDoc":
+                    Form3 newChild = new Form3();
+                    newChild.MdiParent = this;
+                    newChild.Show();
+                    newChild.Text = newChild.Text + " " + ++openDocuments;
+                    break;
+                case "Cascade":
+                    this.LayoutMdi(MdiLayout.Cascade);
+                    break;
+                case "Title":
+                    this.LayoutMdi(MdiLayout.TileHorizontal);
+                    break;
+            }
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

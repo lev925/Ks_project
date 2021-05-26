@@ -17,6 +17,8 @@ namespace Lab1
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new ParentForm());
+            Application.Run(new WinQuestioncs());
+            Application.Run(new TestList());
         }
     }
 }
