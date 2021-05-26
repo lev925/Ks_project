@@ -45,3 +45,10 @@ C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.RegistrationForm.resourc
 C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.UserControlTimer.resources
 C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.UserControlTimer2.resources
 C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.TestStandartDialog.resources
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.csproj.ResolveComReference.cache
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.PDF_Reader.resources
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.WinAnim.resources

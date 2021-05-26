@@ -23,7 +23,8 @@ namespace Lab1
             Application.Run(new WinLinkLabel());
             Application.Run(new RegistrationForm());
             Application.Run(new TestStandartDialog());
-
+            Application.Run(new PDF_Reader());
+            Application.Run(new WinAnim());
         }
     }
 }

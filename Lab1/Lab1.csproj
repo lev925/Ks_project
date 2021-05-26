@@ -127,6 +127,13 @@
     <Compile Include="UserControlTimer2.Designer.cs">
       <DependentUpon>UserControlTimer2.cs</DependentUpon>
     </Compile>
+    <Compile Include="WinAnim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinAnim.Designer.cs">
+      <DependentUpon>WinAnim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinAPIClass.cs" />
     <Compile Include="WinButNum.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -196,6 +203,9 @@
     <EmbeddedResource Include="UserControlTimer2.resx">
       <DependentUpon>UserControlTimer2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="WinAnim.resx">
+      <DependentUpon>WinAnim.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WinContainer.resx">
       <DependentUpon>WinContainer.cs</DependentUpon>
     </EmbeddedResource>
@@ -232,6 +242,25 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
