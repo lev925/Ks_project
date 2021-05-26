@@ -19,6 +19,9 @@ namespace Lab1
             Application.Run(new ParentForm());
             Application.Run(new WinQuestioncs());
             Application.Run(new TestList());
+            Application.Run(new WinContainer());
+            Application.Run(new WinLinkLabel());
+            Application.Run(new RegistrationForm());
         }
     }
 }

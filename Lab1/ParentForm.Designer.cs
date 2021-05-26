@@ -48,8 +48,12 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.spWin = new System.Windows.Forms.ToolStripStatusLabel();
+            this.spData = new System.Windows.Forms.ToolStripStatusLabel();
             this.MdiMenu.SuspendLayout();
             this.toolStrip1.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // MdiMenu
@@ -63,7 +67,7 @@
             this.MdiMenu.Location = new System.Drawing.Point(0, 0);
             this.MdiMenu.MdiWindowListItem = this.WindowMenuItem;
             this.MdiMenu.Name = "MdiMenu";
-            this.MdiMenu.Size = new System.Drawing.Size(420, 24);
+            this.MdiMenu.Size = new System.Drawing.Size(450, 24);
             this.MdiMenu.TabIndex = 0;
             this.MdiMenu.Text = "MdiMenu";
             this.MdiMenu.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -187,7 +191,7 @@
             this.toolStripButton3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(420, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(450, 25);
             this.toolStrip1.TabIndex = 6;
             this.toolStrip1.Text = "toolStrip1";
             this.toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip1_ItemClicked);
@@ -219,6 +223,7 @@
             this.toolStripButton2.Tag = "Cascade";
             this.toolStripButton2.Text = "toolStripButton2";
             this.toolStripButton2.ToolTipText = "Windows cascade";
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // toolStripButton3
             // 
@@ -231,12 +236,37 @@
             this.toolStripButton3.Text = "toolStripButton3";
             this.toolStripButton3.ToolTipText = "Windows title";
             // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.spWin,
+            this.spData});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 328);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(450, 22);
+            this.statusStrip1.TabIndex = 7;
+            // 
+            // spWin
+            // 
+            this.spWin.BackColor = System.Drawing.Color.Lavender;
+            this.spWin.Name = "spWin";
+            this.spWin.Size = new System.Drawing.Size(39, 17);
+            this.spWin.Text = "Status";
+            // 
+            // spData
+            // 
+            this.spData.BackColor = System.Drawing.Color.Lavender;
+            this.spData.Name = "spData";
+            this.spData.Size = new System.Drawing.Size(31, 17);
+            this.spData.Text = "Data";
+            // 
             // ParentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Blue;
-            this.ClientSize = new System.Drawing.Size(420, 320);
+            this.ClientSize = new System.Drawing.Size(450, 350);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -256,6 +286,8 @@
             this.MdiMenu.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -282,6 +314,9 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripButton toolStripButton2;
         private System.Windows.Forms.ToolStripButton toolStripButton3;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel spWin;
+        private System.Windows.Forms.ToolStripStatusLabel spData;
     }
 }
 

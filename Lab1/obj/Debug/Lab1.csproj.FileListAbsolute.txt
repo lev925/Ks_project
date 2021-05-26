@@ -38,3 +38,7 @@ C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.exe
 C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.pdb
 C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.WinQuestioncs.resources
 C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.TestList.resources
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.WinContainer.resources
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.WinLinkLabel.resources
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.WinLinLabForm2.resources
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.RegistrationForm.resources

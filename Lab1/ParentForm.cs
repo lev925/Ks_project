@@ -10,6 +10,7 @@ namespace Lab1
         public ParentForm()
         {
             InitializeComponent();
+            spData.Text = (System.DateTime.Today.ToLongDateString());
         }
 
         private void inputToolStripMenuItem_Click(object sender, EventArgs e)
@@ -102,9 +103,11 @@ namespace Lab1
                     break;
                 case "Cascade":
                     this.LayoutMdi(MdiLayout.Cascade);
+                    spWin.Text = "Window is Cascade";
                     break;
                 case "Title":
                     this.LayoutMdi(MdiLayout.TileHorizontal);
+                    spWin.Text = "Window is Horizontal";
                     break;
             }
         }
@@ -112,6 +115,11 @@ namespace Lab1
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
