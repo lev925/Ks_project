@@ -85,3 +85,8 @@ C:\Users\lluyb\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.csproj.GenerateResource
 C:\Users\lluyb\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
 C:\Users\lluyb\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.exe
 C:\Users\lluyb\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.pdb
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.WinAsynchMethod.resources
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.WinLanguage.resources
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\bin\Debug\ru\Lab1.resources.dll
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\Lab1.WinLanguage.ru.resources
+C:\Users\user\Source\Repos\Prog_Inj\Lab1\obj\Debug\ru\Lab1.resources.dll
