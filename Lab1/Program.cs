@@ -26,6 +26,10 @@ namespace Lab1
             Application.Run(new PDF_Reader());
             Application.Run(new WinAnim());
             Application.Run(new WinPrint());
+            Application.Run(new WinBackgroungWorker());
+            Application.Run(new WinAsynchDelegate());
+            Application.Run(new WinAsynchMethod());
+            Application.Run(new WinLanguage());
         }
     }
 }
